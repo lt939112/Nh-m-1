@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SNEAKER STORE - SHOE-DEV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body>
+    <header class="header-container">
+      <div class="logo" onclick="location.href = 'index.html'">
+        <img src="./logo.png" alt="Logo" /> SHOE-DEV
+      </div>
+<nav class="main-menu">
+  <a href="index.html?brand=Tất cả">Tất cả</a>
+  <a href="index.html?brand=Nike">Nike</a>
+  <a href="index.html?brand=Adidas">Adidas</a>
+  <a href="index.html?brand=Jordan">Jordan</a>
+  <a href="index.html?brand=Puma">Puma</a> 
+  <a href="history.html" class="active" style="color: #38bdf8; border: 1px solid #38bdf8; padding: 2px 8px; border-radius: 10px;">Lịch sử đơn hàng</a>
+</nav>
+
+      <div class="nav-actions">
+        <button id="openConsult">Tư vấn</button>
+        <a href="cart.html">🛒</a>
+        <a href="login.html" id="loginLink">Đăng nhập/Đăng ký</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="content">
+        <h2 id="categoryTitle">Tất cả sản phẩm</h2>
+
+        <input
+          type="text"
+          id="searchInput"
+          class="search-box"
+          placeholder="🔍 Tìm kiếm sản phẩm..."
+        />
+        <div id="productGrid" class="product-grid"></div>
+      </section>
+    </main>
+<!-- ===== THÀNH VIÊN SHOP ===== -->
+    <section class="team-section">
+      <h2 class="team-title">THÀNH VIÊN SHOP</h2>
+
+      <div class="team-grid">
+        <!-- Thành viên 1 -->
+        <a href="member-huy.html" class="member-card-link">
+          <div class="member-card">
+            <img src="./imgSV/VuThaiHuy.jpg" alt="Vũ Thái Huy" />
+            <h3>Vũ Thái Huy</h3>
+            <p>MSSV: 24N01214</p>
+          </div>
+        </a>
+
+        <!-- Thành viên 2 -->
+        <a href="member-truong.html" class="member-card-link">
+          <div class="member-card highlight">
+            <img src="./imgSV/DoLamTruong.jpg" alt="Đỗ Lâm Trường" />
+            <h3>Đỗ Lâm Trường</h3>
+            <p>MSSV: 24N01211</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <div id="consultModal" class="modal">
+      <div class="modal-box">
+        <span id="closeConsult">✖</span>
+        <h3>Liên hệ tư vấn</h3>
+
+        <form id="consultFormInner">
+          <input type="text" id="consultName" placeholder="Họ tên" required />
+          <input type="email" id="consultEmail" placeholder="Email" required />
+          <textarea
+            id="consultContent"
+            placeholder="Nội dung tư vấn"
+            required
+          ></textarea>
+          <button type="submit">Gửi yêu cầu</button>
+        </form>
+      </div>
+    </div>
+   <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-col">
+      <h3 class="logo"><img src="./logo.png" /> SHOE-DEV</h3>
+      <p class="footer-desc">
+        Chuyên cung cấp các dòng giày sneaker chính hãng, phong cách và chất lượng hàng đầu. Nâng niu bàn chân Việt.
+      </p>
+    </div>
+ <div class="footer-col">
+          <h3>Hỗ trợ khách hàng</h3>
+          <ul>
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                style="color: #ffffff; text-decoration: none"
+                onmousemove="this.style.textDecoration = 'underline'"
+                onmouseout="this.style.textDecoration = 'none'"
+                >Hướng dẫn chọn size</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                style="color: #ffffff; text-decoration: none"
+                onmousemove="this.style.textDecoration = 'underline'"
+                onmouseout="this.style.textDecoration = 'none'"
+                >Chính sách đổi trả</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                style="color: #ffffff; text-decoration: none"
+                onmousemove="this.style.textDecoration = 'underline'"
+                onmouseout="this.style.textDecoration = 'none'"
+                >Thanh toán & Vận chuyển</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Liên hệ</h3>
+          <p
+            style="
+              display: flex;
+              align-items: center;
+              font-family: Arial, sans-serif;
+            "
+          >
+            <span style="margin-right: 4px">📍</span>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Số+79+đường+DT743+phường+Bình+Hòa+Thuận+An+Bình+Dương"
+              title="Địa chỉ Trường trung cấp công nghiệp Bình Dương cơ sở 1 "
+              target="_blank"
+              style="color: #ffffff; text-decoration: none; line-height: 1.5"
+              onmouseover="this.style.textDecoration = 'underline'"
+              onmouseout="this.style.textDecoration = 'none'"
+            >
+              Số 79, đường DT743, phường Bình Hòa,<br />Ho Chi Minh City,
+              Vietnam
+            </a>
+          </p>
+          <p>📞 Hotline: 098 626 56 79</p>
+          <span>✉️</span>
+          <a
+            href="mailto:truongtccnbd@gmail.com"
+            title="gmail Trường trung cấp công nghiệp Bình Dương"
+            target="_blank"
+            style="
+              color: #ffffff;
+              text-decoration: none;
+              font-family: sans-serif;
+            "
+            onmouseover="this.style.textDecoration = 'underline'"
+            onmouseout="this.style.textDecoration = 'none'"
+          >
+            Email:truongtccnbd@gmail.com
+          </a>
+          <p>
+          <a
+            href="https://www.facebook.com/bdi.edu.vn/?locale=vi_VN"
+            title="Trang facebook Trường trung cấp công nghiệp Bình Dương"
+            target="_blank"
+            style="
+              color: #ffffff;
+              text-decoration: none;
+              font-family: sans-serif;
+            "
+            onmouseover="this.style.textDecoration = 'underline'"
+            onmouseout="this.style.textDecoration = 'none'"
+          >Trang facebook:
+            Trường trung cấp công nghiệp Bình Dương
+          </a>
+        </p>
+        </div>
+      </div>
+
+  <div class="footer-col" style="text-align: center;">
+  <h3 style="margin-bottom: 20px;">Bản đồ</h3>
+  <div class="map-box-wrapper">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.831332635758!2d106.73749771168517!3d10.900419889211133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d83c1116183d%3A0xfa754495eeb43247!2zVHLGsOG7nW5nIFRydW5nIEPhuqVwIEPDtG5nIE5naGnhu4dwIELDrG5oIETGsMahbmc!5e0!3m2!1svi!2s!4v1770066893691!5m2!1svi!2s" 
+      class="square-map"
+      allowfullscreen="" 
+      loading="lazy">
+    </iframe>
+  </div>
+</div>
+  <div class="footer-bottom">
+    © 2026 SHOE-DEV. All rights reserved. <br />
+  </div>
+    <script src="../js/script.js"></script>
+    <script src="../js/consult.js"></script>
+  </body>
+</html>
