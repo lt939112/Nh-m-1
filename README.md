@@ -4,16 +4,16 @@
 
 ## Minh họa
 ### SplashScreen - Home - ShoeDetail
-*Bạn chèn link ảnh demo 3 màn hình này vào đây*
+* ảnh màn hình*
 <p align="center">
-  <img src=""width="32%"> 
-  <img src="" width="32%">
-  <img src="" width="32%">
-  <img src="" width="32%">
+  <img src="https://github.com/user-attachments/assets/a91dcebb-7a04-4b60-85bf-42343b891ab6"width="32%"> 
+  <img src="https://github.com/user-attachments/assets/fdf16121-ccfe-4ac5-89c5-16c5bdc68c4b"width="32%">
+  <img src="https://github.com/user-attachments/assets/49f9c27b-47b9-46f1-a144-d937392143c2" width="32%">
+
 </p>
 
 ### Register - Login - Login_Success
-*Bạn chèn link ảnh demo phần đăng nhập vào đây*
+* ảnh phần đăng nhập vào đây*
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9a62f901-0f68-4d5e-8b89-63dac8c42308" width="32%">
   <img src="https://github.com/user-attachments/assets/c6ac62c9-3ede-4c7a-9fc7-52d52b6a9aa6" width="32%">
@@ -65,6 +65,6 @@ Kiểm tra dòng này ở đầu mỗi file HTML: <link rel="stylesheet" href="s
 ---
 
 ## Thông tin nhóm thực hiện
-<img src="https://github.com/user-attachments/assets/588cc4df-28ef-4946-b26a-5685f94f619f" width="150"> **Tên: Đỗ Lâm Trường** , 🆔 MSSV: 24N01211 ,💻 Công việc:JavaScript nâng cao, Quản lý dữ liệu sản phẩm."
-<img src="https://github.com/user-attachments/assets/096aea88-fa00-4c98-a05e-2a0a1be69683" width="150"> **Tên: Vũ Thái Huy** ,🆔 MSSV: 24N01214 ,💻 Công việc: HTML/CSS, Thiết kế UI/UX, Tối ưu giao diện Responsive."
+<img src="https://github.com/user-attachments/assets/588cc4df-28ef-4946-b26a-5685f94f619f" width="150"><br>**Tên: Đỗ Lâm Trường** , 🆔 MSSV: 24N01211 ,💻 Công việc:JavaScript nâng cao, Quản lý dữ liệu sản phẩm."
+<img src="https://github.com/user-attachments/assets/096aea88-fa00-4c98-a05e-2a0a1be69683" width="150"><br>**Tên: Vũ Thái Huy** ,🆔 MSSV: 24N01214 ,💻 Công việc: HTML/CSS, Thiết kế UI/UX, Tối ưu giao diện Responsive."
 *Học:Trường Trung Cấp Nghiệp Bình Dương
